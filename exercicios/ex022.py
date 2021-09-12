@@ -1,0 +1,5 @@
+nome = str(input('\033[;1;97mDigite o seu nome completo ')).strip()
+print('Seu nome em maiúsculo é \033[:1:91m{}\033[m'.format(nome.upper()))
+print('\033[;1;97mSeu nome em minúsculo é\033[m \033[;1;91m{}'.format(nome.lower()))
+print('\033[;1;97mSeu nome ao todo tem\033[;1;91m {}\033[m \033[;1;97mletras '.format(len(nome.replace(' ',''))))
+print('Seu primeiro nome é \033[;1;91m{}\033[;1;97m e o total de letras é \033[;1;91m{}'.format(nome.capitalize().split()[0],len(nome.split()[0])))
