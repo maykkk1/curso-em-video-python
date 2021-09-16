@@ -1,3 +1,5 @@
-tupla = (1,)
+x = 'n'
 
-print(len(tupla))
+z = int(x)
+
+print(x)
