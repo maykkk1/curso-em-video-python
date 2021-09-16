@@ -1,5 +1,3 @@
-x = 'n'
-
-z = int(x)
-
-print(x)
+import math
+print(math.trunc(5.321))
+help(math)
