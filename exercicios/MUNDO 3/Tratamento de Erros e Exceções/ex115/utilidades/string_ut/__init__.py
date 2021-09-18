@@ -14,3 +14,22 @@ def color(c=0):
                   '\033[35m',  # 5 - Roxo
                  ]
     return color_list[c]
+
+
+def menu_(list):
+    title('MENU PRINCIPAL', 0)
+    for element in list:
+        for k, v in element.items():
+            print(f'{color(3)}{k} - {color(4)}{v}')
+    print(f'{color(0)}-' * 44)
+
+
+def leiaInt(msg):
+    while True:
+        try:
+            num = int(input(msg))
+        except:
+            print(f'\033[31mErro! Por favor digite um número inteiro válido.\033[m')
+            continue
+        else:
+            return num
