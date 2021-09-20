@@ -1,0 +1,6 @@
+pessoa 1 
+30 
+pessoa 2 
+20 
+pessoa 3  
+18 
